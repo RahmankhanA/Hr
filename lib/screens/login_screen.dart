@@ -192,7 +192,7 @@ class _LoginScreenState extends State<LoginScreen> {
               padding: EdgeInsets.symmetric(vertical: 10, horizontal: w*0.1),
               child: RichText(
                 text: TextSpan(
-                    text: "Don't have an account?",
+                    text: "New in HR Tech?",
                     style: const TextStyle(
                       color: Colors.black,
                       fontSize: 17,
