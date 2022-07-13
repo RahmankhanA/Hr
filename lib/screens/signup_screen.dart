@@ -183,7 +183,7 @@ class _SignUpPageState extends State<SignUpPage> {
               padding: EdgeInsets.symmetric(vertical: 10, horizontal: w*0.1),
               child: RichText(
                 text: TextSpan(
-                    text: "Already have an account?",
+                    text: "Already in HR Tech?",
                     style: const TextStyle(
                       color: Colors.black,
                       fontSize: 17,
