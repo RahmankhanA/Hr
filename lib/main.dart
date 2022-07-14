@@ -15,11 +15,11 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        // rgba(14,67,117,255)
+    
 
         primarySwatch:
             MaterialColor(Color.fromRGBO(14, 67, 117, 1).value, color),
-        // primarySwatch: const Color.fromARGB(14,67,117,255),
+      ,
       ),
       home: const Home(),
     );
