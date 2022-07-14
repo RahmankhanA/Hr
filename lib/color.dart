@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-Map<int, Color> color = {
+Map<int, Color> color = const {
   50: Color.fromRGBO(67, 117, 255, .1),
   100: Color.fromRGBO(67, 117, 255, .2),
   200: Color.fromRGBO(67, 117, 255, .3),

@@ -159,7 +159,7 @@ class _SignUpPageState extends State<SignUpPage> {
                   style: ElevatedButton.styleFrom(
                       minimumSize: Size(w / 1.1, h / 15)),
                   onPressed: () {},
-                  child: const Text("Sign Up"),
+                  child: const Text("Register"),
                 ),
               ),
               const SizedBox(
@@ -174,7 +174,7 @@ class _SignUpPageState extends State<SignUpPage> {
         ),
       ),
       bottomNavigationBar: GestureDetector(
-            onTap: () {Navigator.push(
+            onTap: () {Navigator.pushReplacement(
                   context, MaterialPageRoute(builder: (context) =>  const LoginScreen()));},
             child: Container(
            height: h*0.07,

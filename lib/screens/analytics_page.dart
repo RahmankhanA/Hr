@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:hr_management/screens/login_screen.dart';
 import 'package:hr_management/widgets/MyCard.dart';
 
 class AnalyticsPage extends StatefulWidget {
@@ -19,7 +20,16 @@ class _AnalyticsPageState extends State<AnalyticsPage> {
 
     return Scaffold(
         appBar: AppBar(
-          leading: Image.asset("assets/image/icon_1.png"),
+          leading: Builder(
+    builder: (BuildContext context) {
+      return IconButton(
+        icon: Image.asset("assets/image/icon_1.png"),
+        onPressed: () { Navigator.push(
+                  context, MaterialPageRoute(builder: (context) =>  const LoginScreen())); },
+        tooltip: MaterialLocalizations.of(context).openAppDrawerTooltip,
+      );
+    },
+  ),
           title: const Text("Analytics"),
           centerTitle: true,
           actions: const [

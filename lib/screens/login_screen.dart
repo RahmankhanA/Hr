@@ -182,7 +182,7 @@ class _LoginScreenState extends State<LoginScreen> {
       ),
       bottomNavigationBar: GestureDetector(
             onTap: () {
-              Navigator.push(
+              Navigator.pushReplacement(
                   context, MaterialPageRoute(builder: (context) =>  const SignUpPage()));
             },
             child: Container(
